@@ -21,3 +21,4 @@ find_package(Boost REQUIRED filesystem system)
 include_directories(${Boost_INCLUDE_DIRS})
 
 add_subdirectory(asio/roundtrip)
+add_subdirectory(asio/filetransfer)
